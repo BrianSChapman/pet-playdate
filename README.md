@@ -20,7 +20,7 @@ Nothing needs to be installed! Just head to the heroku link to get started!
 
 ## Usage
 
-Heroku deployment: [here](https://morning-journey-92654.herokuapp.com/home)
+Heroku deployment: [here](https://salty-sierra-16506.herokuapp.com/)
 
 Desktop/tablet view:
 ![desktop screenshot](./public/images/screenshot.png)
