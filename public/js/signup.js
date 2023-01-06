@@ -10,7 +10,7 @@ let petUrl;
 
 var myWidget = cloudinary.createUploadWidget(
   {
-    cloudName: "dyrbwr67u",
+    cloudName: "dj0py7n1d",
     uploadPreset: "pet_playdate",
   },
   (error, result) => {
