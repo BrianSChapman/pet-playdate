@@ -1,8 +1,10 @@
 // Calendar
+const today = new Date(new Date().getFullYear(),new Date().getMonth(),new Date().getDate());
 const Calendar = document.querySelector('.datepicker');
 M.Datepicker.init(Calendar,{
     format: 'mm/dd/yy',
     showClearBtn: true,
+    minDate: today 
 });
 // Dropdown menu on playdate form
 document.addEventListener('DOMContentLoaded', function() {
@@ -29,11 +31,3 @@ loginClick = (event) => {
     }
   });
 };
-const file = document.querySelector("#file")
-file.addEventListener("change", function() {
-  const reader = new FileReader()
-  reader.addEventListener("load", () => {
-    document.querySelector("#image").src = reader.result
-  })
-  reader.readAsDataURL(this.files[0]);
-})

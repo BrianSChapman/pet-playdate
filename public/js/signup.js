@@ -8,6 +8,7 @@ const activityLevel = document.getElementById("activity_level");
 let signupAlert;
 let petUrl;
 
+
 var myWidget = cloudinary.createUploadWidget(
   {
     cloudName: "dj0py7n1d",
