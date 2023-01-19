@@ -2,13 +2,14 @@
 
 ## Description
 
-The motivation and purpose behind this project was to create an app that can be used to register and keep track of playdates. The app allows users to create an account, or login with existing credentials. Once logged in the user can register new pets and use those pets to create playdate events.
+The motivation and purpose behind this project was to create an app that can be used to register and keep track of playdates. The app allows users to create an account, or login with existing credentials. Once logged in, the user can register new pets and use their profile to create playdate events with other pet owners in their area.
 
-It solves the issue of not having an app that can keep track of upcoming playdates. We learned a lot about linking the front end development to back end, as well as using a new styling database.
+It solves the issue of not having an app that can keep track of upcoming playdates. We learned a lot about linking the front end development to back end, as well as using a new styling framework.
 
 ## Table of Contents
 
 - [Installation](#installation)
+-[Technologies](#technologies)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
@@ -17,6 +18,18 @@ It solves the issue of not having an app that can keep track of upcoming playdat
 ## Installation
 
 Nothing needs to be installed! Just head to the heroku link to get started!
+
+## Technologies
+
+* Handlebars-js
+* Materialize CSS Framework
+* bcrypt (encrypting user passwords)
+* Sequelize-session (Keeping sessions open for users to be persistently logged in)
+* MYSQL
+*Sequelize (To build out models and handle MYSQL queries)
+* Node
+* Express
+* Insomnia (To test API routes as we went)
 
 ## Usage
 
