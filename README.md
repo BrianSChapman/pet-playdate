@@ -34,7 +34,8 @@ Nothing needs to be installed! Just head to the heroku link to get started!
 
 ## Usage
 
-Heroku deployment: [here](https://salty-sierra-16506.herokuapp.com/)
+Heroku deployment: [here](https://salty-sierra-16506.herokuapp.com/).
+
 Upon entering the page, you are given the option to login (if you have an existing account) or register a pet. After the registration is complete, you'll immediately be taken to your dashboard where you will see a newly created profile for your pet and the ability to use a date picker to choose a play date and a location (Currently just in the Philadelphia area for v1.0. We intend to look into geolocation APIs in the future). If other users have signed up for a play date on the same date, you'll be able to see their profiles under the new event details.
 
 Desktop/tablet view:
